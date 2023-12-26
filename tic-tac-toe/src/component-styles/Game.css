@@ -1,0 +1,46 @@
+.game-box{
+    background-color: #1F3540;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.scorecard{
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.card1{
+    background-color: #31C4BE;  
+}
+.card2{
+    background-color:  #A8BEC9;
+
+    
+}
+.card3{
+    background-color:  #F2B237;
+}
+.turn{
+    background-color: #1F3540;
+    height: 10px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040; 
+    color:  #A8BEC9;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
