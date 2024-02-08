@@ -1,0 +1,44 @@
+.game-over {
+
+    .game-result {
+        margin-top: 0;
+        color: #ACC2CD;
+        font-size: 0.9375rem;
+        font-weight: 700;
+    }
+
+    h1 {
+        color: var(--yellow);
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 800;
+        margin-bottom: 1.5rem;
+
+        svg {
+            position: relative;
+            top: 7px;
+            margin-right: 10px;
+        }
+    }
+
+    .game-over-buttons {
+        width: 80%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-around;
+
+        button {
+            width: 7.0625rem;
+            height: 2.0625rem;
+            border-radius: 0.625rem;
+        }
+        
+        .quit {
+            background-color: var(--yellow);
+        }
+
+        .play-again {
+            background-color: var(--aqua);
+        }
+    }
+}
